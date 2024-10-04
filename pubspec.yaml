@@ -1,0 +1,49 @@
+name: tailer_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0+1
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  introduction_screen: ^3.1.14
+  firebase_core: ^3.1.0
+  cloud_firestore: ^5.0.1
+  firebase_auth: ^5.1.0
+  circular_bottom_navigation: ^2.4.0
+  google_ml_kit: ^0.18.1
+  fluttertoast: ^8.2.8
+  vector_math: ^2.1.0
+  arcore_flutter_plugin: 0.1.0
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  flutter_cube: 0.1.1
+  tflite_flutter: ^0.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"  # Path to your app logo for launcher icons
+
+flutter:
+  uses-material-design: true
+
+  # Include your assets here (correct spacing and formatting)
+  assets:
+    - assets/logo.png        
+    - assets/heavy.glb      
+    - assets/   
+    - assets/gifs/
+             
